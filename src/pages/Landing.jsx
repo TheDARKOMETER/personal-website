@@ -7,7 +7,8 @@ export default function Landing() {
     <>
       <Header />
       <main>
-        <section className='pt-44 custom-max-width mx-auto hero text-white gap-y-5 flex flex-col items-center'>
+        {/* Check if section's padding looks decent in other devices/viewports */}
+        <section className='pt-28 custom-max-width mx-auto hero text-white gap-y-5 flex flex-col items-center'>
           <div className='sm:w-full gap-y-11 flex-col flex md:w-2/4 mx-auto hero-text'>
             <h1 className='text-4xl md:text-3xl lg:text-6xl sm:text-4xl'>
               Hi, I’m TheDARKOMETER.
