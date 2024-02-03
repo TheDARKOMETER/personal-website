@@ -21,7 +21,7 @@ export default function Header() {
   }
 
   return (
-    <header className='mt-4 text-white '>
+    <header className='mt-4 text-white'>
       <section className={`custom-max-width mx-auto flex ${mobileMenuVisible && isMobileview ? 'flex-col' : 'justify-between items-center'} `}>
 
         <div className='w-full heading-wrapper flex justify-between items-center'>
