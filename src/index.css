@@ -41,7 +41,6 @@ div.expand-container.expanded {
 
 
 .hero-text {
-
   --s: 85px;
   /* the size on the corner */
   --t: 2px;
@@ -93,4 +92,23 @@ nav li {
 
 .radial-blue {
   background: radial-gradient(lightyellow, skyblue);
+}
+
+.h1-brand {
+  @apply md:text-4xl lg:text-5xl xl:text-6xl sm:text-2xl mt-1 mb-1;
+}
+
+img.social-img {
+  width: 80px;
+  height: 80px;
+  @apply mb-4;
+}
+
+.h2-brand {
+ @apply text-xl sm:text-2xl mt-1 mb-1
+}
+
+img.position-specific {
+  left:48px;
+  top:48px;
 }
